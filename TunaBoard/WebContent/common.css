@@ -1,0 +1,52 @@
+@CHARSET "UTF-8";
+
+*{
+	box-sizing: border-box;
+}
+
+html, body {
+	padding: 0px;
+	margin: 0px;
+	height: 100%;
+	width: 100%;
+}
+
+.header {
+	height: 15%;
+	margin: 0px;
+	padding: 0px;
+}
+
+.footer {
+	height: 10%;
+	text-align: center;
+	background-color: pink;
+}
+
+.container {
+	height: 75%;
+	margin: 0px;
+	padding: 0px;
+	overflow: outo;
+	text-align: center;
+	display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.home {
+	height: 75%;
+	margin: 0px;
+	padding: 0px;
+	overflow: outo;
+	text-align: left;
+}
+
+table {
+	border: 1px solid black;
+	border-style: inherit;
+}
+
+h3, h1 {
+	margin: 0px;
+}
